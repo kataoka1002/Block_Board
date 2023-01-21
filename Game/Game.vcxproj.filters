@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="system">
+      <UniqueIdentifier>{22dd8095-74f9-46df-81a1-36675a040b1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="Player2.cpp" />
+    <ClCompile Include="Junban.cpp" />
+    <ClCompile Include="Tate.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Tatekanri.cpp" />
+    <ClCompile Include="BattleStart.cpp" />
+    <ClCompile Include="Gauge.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="Sousa.cpp" />
+    <ClCompile Include="Fade.cpp" />
+    <ClCompile Include="Syoumetu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="Player2.h" />
+    <ClInclude Include="Junban.h" />
+    <ClInclude Include="Tate.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Tatekanri.h" />
+    <ClInclude Include="BattleStart.h" />
+    <ClInclude Include="Gauge.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Sousa.h" />
+    <ClInclude Include="Fade.h" />
+    <ClInclude Include="Syoumetu.h" />
+  </ItemGroup>
+</Project>
